@@ -1,0 +1,53 @@
+body {
+	background-color: aliceblue;
+}
+
+h1 {
+	font-size: 30px;
+	letter-spacing: 10px;
+	line-height: 1.6;
+}
+
+h2 {
+	font-family: Times;
+}
+
+p {
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: purple;
+}
+
+img {
+
+}
+
+.card {
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 15px;
+	background: aliceblue;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, .1);
+}
+
+
+@media (max-width: 576px) {
+	.container {
+		width: 300px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 500px;
+	}
+}
+
